@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 # Set the default hosts
-env.hosts = ["100.25.159.210", "100.25.139.218"]
+env.hosts = ['xx-web-01', 'xx-web-02']
 
 def do_pack():
     """Packs the web_static content into a .tgz archive"""
